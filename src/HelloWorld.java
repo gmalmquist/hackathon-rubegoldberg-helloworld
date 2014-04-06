@@ -136,7 +136,7 @@ public class HelloWorld {
 					return util;
 				}
 				
-				if (Math.random() > 0.001) {
+				if (Math.random() > 0.005) {
 					double u = 0;
 					for (int i = 0; i < string.length(); i++) {
 						if (string.charAt(i) == "Hello, world!".charAt(i)) {
